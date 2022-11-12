@@ -46,6 +46,7 @@ class SportsCar extends Car {
     }
 
     public void carInfo(){
+
         System.out.println("Car was built on: "+ this.getManufacturingDate());
     }
 }
