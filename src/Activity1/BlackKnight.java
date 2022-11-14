@@ -66,17 +66,18 @@ public class BlackKnight {
 
         BlackKnight knight2 = new BlackKnight();
         System.out.println(knight2.toString());
+
+        ////////
+        // int, String, boolean
+        int myInteger = 4;
+
+
+        BlackKnight[] myBlackKnightArray;
+
+        myBlackKnightArray = new BlackKnight[7];
     }
 
 
 }
 
 
-/*
-Exercise:
- Road ===> from, to, distance(50km), arrived | methods ==> getters and setters, toString | create constructor to set empty values for all fields
- Transport ===> id, consumption = 10/100km, fuelTank(1l) | methods ==> getters and setters, toString, move(road)
- TransportManagement ===> static Array of transports, roads | methods:
-            initSystem(5, 7)
-            getTransports, getRoads, setRoad(roadObject, index), setTransport(transportObject, index)
- */
